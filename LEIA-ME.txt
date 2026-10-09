@@ -1,0 +1,9 @@
+GRANATRACK PWA — MVP 0.1
+
+Inclui: cadastro/edição por data, observação, gráfico de faturamento, médias móveis de 2 e 5 registros, total acumulado, média, melhor dia, histórico e exclusão de registros. Os dados ficam no armazenamento local deste navegador; não sincronizam entre aparelhos e podem ser perdidos se os dados do navegador forem apagados. Não inclui contas, anúncios, Premium ou pagamentos.
+
+Para testar a instalação, publique os arquivos em um endereço HTTPS. Abrir index.html como arquivo não permite instalar como PWA. A PWA usa manifesto e service worker; a instalação depende do navegador e do dispositivo.
+
+Publicação gratuita sugerida: crie um repositório público no GitHub, envie todos os arquivos e a pasta icons; depois acesse Settings > Pages e habilite publicação a partir do branch principal e pasta root. Use o link HTTPS gerado para abrir no Chrome Android e escolha Instalar/Adicionar à tela inicial quando disponível.
+
+Teste: registre R$ 115,00 em uma data e R$ 135,00 em outra. O total deve ser R$ 250,00. Se registrar uma data já existente, o valor é atualizado em vez de duplicado.
